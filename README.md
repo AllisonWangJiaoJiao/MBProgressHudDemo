@@ -1,2 +1,18 @@
 # MBProgressHudDemo
-MBProgressHud的二次封装
+###### MBProgressHud的二次封装的使用
+
+```
+// 成功提示
+[MBProgressHUD showSuccess:@"提示成功"];
+
+// 错误提示
+ [BDFProgressHUD showError:@"错误信息"];
+ 
+// 文字信息提示
+[BDFProgressHUD showMessage:@"提示信息！"];
+
+// Loading提示
+ [BDFProgressHUD showLoading:@"Loading..."];
+ 
+```
+
